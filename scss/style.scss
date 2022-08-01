@@ -1,11 +1,3 @@
-/* @import "preferences/preferences";
-@import "variables/variables";
-@import "general/_general.scss";
-@import "blocks/_blocks.scss";
-@import "layout/_layout.scss";
-@import "elements/_button";
- */
-
 /*****  Fonts  *****/
 $font-primary: 'Montserrat', sans-serif;
 $font-secondary: 'Poppins', sans-serif;
@@ -29,6 +21,7 @@ $content-width: 1200px;
 
 body {
     width: $width;
+    margin: 0 auto;
 }
 
 li {
@@ -64,9 +57,10 @@ li {
     padding: 9px 0;
     line-height: 28px;
    }
-   &-link-color {
+}
+
+.menu-link:hover {
     color: $secondary;
-   }
 }
 
 .btn-group {
